@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/_Levels & Scenes/LoadingScreen.unity
+    guid: b2297fedcc06e224ca067c01abb5969e
+  - enabled: 0
+    path: Assets/_Levels & Scenes/1.unity
+    guid: d55123f3db242734fb5cbbf4eb9ece30
+  - enabled: 0
+    path: Assets/_Levels & Scenes/2.unity
+    guid: 3e83a47276d1f4f43bf4393c9b33b5fc
+  - enabled: 0
+    path: Assets/_Levels & Scenes/3.unity
+    guid: f6c8780c421ec1b47b88ec51ae5246c9
+  - enabled: 0
+    path: Assets/_Levels & Scenes/4.unity
+    guid: 8d4020cc616ae1c46af403245962e74d
+  - enabled: 0
+    path: Assets/_Levels & Scenes/5.unity
+    guid: a51624d104a00494786169ff53cfdce6
+  - enabled: 0
+    path: Assets/_Levels & Scenes/6.unity
+    guid: 64795464104833145a394c7f9e7d62d7
+  - enabled: 0
+    path: Assets/_Levels & Scenes/7.unity
+    guid: 785072725c117d348b681b82474c3193
+  - enabled: 0
+    path: Assets/_Levels & Scenes/8.unity
+    guid: bd23e4e9819db8943881feca13eb4ad3
+  - enabled: 0
+    path: Assets/_Levels & Scenes/9.unity
+    guid: 640da9eef310cd74881a54240d796372
+  - enabled: 0
+    path: Assets/_Levels & Scenes/10.unity
+    guid: c8225695f3a263c44931e7b3a47a03bc
+  - enabled: 0
+    path: Assets/_Levels & Scenes/11.unity
+    guid: 246f0b1535400dc4aae38dae3aee75d2
+  - enabled: 0
+    path: Assets/_Levels & Scenes/12.unity
+    guid: 62e4e1c4b32f20b4da67f3b6e4d3ba41
+  - enabled: 0
+    path: Assets/_Levels & Scenes/MainMenu.unity
+    guid: 66186d91966b80641af083ac35fcb1e8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/_Levels & Scenes/Map.unity
+    guid: e332defb77f95f649a2066dc35be289b
+  - enabled: 0
+    path: Assets/_Levels & Scenes/Lessons.unity
+    guid: b73a0a028ed452445b34270359399947
+  - enabled: 0
+    path: Assets/_Levels & Scenes/Ending.unity
+    guid: 91e1398b25ee2204eb674fd46722df6d
+  - enabled: 0
+    path: Assets/_Levels & Scenes/Intro.unity
+    guid: 141b8bf892464304d8e7fecc019680f7
+  - enabled: 1
+    path: Assets/_Levels & Scenes/WEBGL.unity
+    guid: dcd447c640b1d3749aab08612095a578
+  m_configObjects: {}

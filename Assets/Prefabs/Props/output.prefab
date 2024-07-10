@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4637596873077593223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6449537581330368543}
+  - component: {fileID: 3459544022143111433}
+  - component: {fileID: 8876747054843761844}
+  - component: {fileID: 3917127047024576647}
+  - component: {fileID: 4637596873077593222}
+  - component: {fileID: 4637596873077593220}
+  - component: {fileID: 4637596873077593221}
+  m_Layer: 11
+  m_Name: output
+  m_TagString: Monitor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6449537581330368543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637596873077593223}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.69, y: 1.76, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 334195150978728049}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3459544022143111433
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637596873077593223}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1149213661
+  m_SortingLayer: 4
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 3171689126768510280, guid: 162eec8047fc4504181e8c1bb67149a5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &8876747054843761844
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637596873077593223}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 6f0589e62b25a4b4cb325dc41392ae0b, type: 2}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.40342385}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1524506, y: 1.8068475}
+  m_EdgeRadius: 0
+--- !u!95 &3917127047024576647
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637596873077593223}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b080429f3240ded45a40666a7c237f05, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4637596873077593222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637596873077593223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7404312a0f90d204ba01bf50db03f167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lessonViewer: {fileID: 0}
+  Key: {fileID: 334195150978728052}
+--- !u!114 &4637596873077593220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637596873077593223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff063eef6d07eb548b16971dfbc98704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SlideNumber: {fileID: 0}
+  LessonImg:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  dialogueTitle: {fileID: 0}
+  dialogueText: {fileID: 0}
+  DialogueBox: {fileID: 0}
+  NextBtn: {fileID: 0}
+  PrevBtn: {fileID: 0}
+  DoneBtn: {fileID: 0}
+--- !u!114 &4637596873077593221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4637596873077593223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd927aeeeb362d4587601a7756abc0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    Topics:
+    - 
+    - Introduction
+    - Display Text using print() tool
+    - Display Number using print tool
+    - Adding Text inside print tool
+    - Adding Text and Number inside print tool
+    sentences:
+    - 
+    - "Python provides numerous built-in tools that are readily available for us
+      to use.\r\nSome of these tools are input() and print() that is widely used
+      for input and output of data.\r\nIn this topic we learn the use of print tool
+      in displaying data.\r"
+    - "We use print() to display output to our screen. For displaying text on our
+      screen we use single quotes \u2018Text here\u2019 or double quotes \u201CText
+      here\u201C. This is to tell computer what we are displaying is a TEXT.\r\nWe
+      display \u2018This is sentence is output to the screen\u2019 by putting the
+      sentence inside the parenthesis ( ) of the print() tool and adding single quote.\r"
+    - Unlike displaying text, displaying a number does not require single and double
+      quotes. We just insert the number inside the parenthesis of the print tool.
+      In this example, We print a number 199 directly without any extra characters.
+    - Inside the parenthesis, We can add different Text inside the print with the
+      use of comma ( , ). In this example, we add two Text 'This is number ' and
+      'Ten' by putting comma ( , ) in the middle.
+    - We can also add Text and Number inside print tool using comma ( , ). In this
+      example we add  a Text 'This is number ' and a Number 10.
+  dialogueManager: {fileID: 4637596873077593220}
+  bossDialogueManager: {fileID: 0}
+--- !u!1001 &3867314297079605266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6449537581330368543}
+    m_Modifications:
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58737737
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.80931324
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 108.058
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460390, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_Name
+      value: P_Key2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533137014088460390, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+--- !u!4 &334195150978728049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3533137014088460387, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+  m_PrefabInstance: {fileID: 3867314297079605266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &334195150978728052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3533137014088460390, guid: 54376cfe8ad4c654b9588a5b8bded689, type: 3}
+  m_PrefabInstance: {fileID: 3867314297079605266}
+  m_PrefabAsset: {fileID: 0}

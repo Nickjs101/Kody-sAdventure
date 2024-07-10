@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 2081823275
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: KODY1
+      m_Hash: 1732384021
+      m_Sprite: {fileID: 21300000, guid: 75a5796d221c9f14cbdad51a88c6f326, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 75a5796d221c9f14cbdad51a88c6f326, type: 3}
+    - m_Name: KODY2
+      m_Hash: -28621649
+      m_Sprite: {fileID: 21300000, guid: 6a0428b06bc9ef84fa5e4bf2dd37f8d9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6a0428b06bc9ef84fa5e4bf2dd37f8d9, type: 3}
+    - m_Name: KODY3
+      m_Hash: -1991478215
+      m_Sprite: {fileID: 21300000, guid: 410ea0900f4fb27458e65c16dc52097d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 410ea0900f4fb27458e65c16dc52097d, type: 3}
+    - m_Name: KODY5
+      m_Hash: 1613746444
+      m_Sprite: {fileID: 21300000, guid: 8deccbe8d43f2054e937f6faa7760caf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 8deccbe8d43f2054e937f6faa7760caf, type: 3}
+    - m_Name: KODY4
+      m_Hash: 388555162
+      m_Sprite: {fileID: 21300000, guid: ddf7e99fb1ea0bf4a9282e94976ccec1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ddf7e99fb1ea0bf4a9282e94976ccec1, type: 3}
+    - m_Name: KODY6
+      m_Hash: -114917194
+      m_Sprite: {fileID: 21300000, guid: 0d6be910dff2a8a43928583d0e23b09d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 0d6be910dff2a8a43928583d0e23b09d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  - m_Name: Run
+    m_Hash: 1748754976
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: KODY7
+      m_Hash: -1910394848
+      m_Sprite: {fileID: 21300000, guid: 0b97c55d12772664dbff149ef34c5bdb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 0b97c55d12772664dbff149ef34c5bdb, type: 3}
+    - m_Name: KODY8
+      m_Hash: 513715633
+      m_Sprite: {fileID: 21300000, guid: 2c116cf83a65a72438a19dedd1aa4bbe, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2c116cf83a65a72438a19dedd1aa4bbe, type: 3}
+    - m_Name: KODY9
+      m_Hash: 1771674919
+      m_Sprite: {fileID: 21300000, guid: 4534f2dd5c42d0d4cb299f0db3c0f8f3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 4534f2dd5c42d0d4cb299f0db3c0f8f3, type: 3}
+    - m_Name: KODY10
+      m_Hash: -1721665057
+      m_Sprite: {fileID: 21300000, guid: 37eac375efdd9ef448616870d215bc7d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 37eac375efdd9ef448616870d215bc7d, type: 3}
+    - m_Name: KODY11
+      m_Hash: -295286455
+      m_Sprite: {fileID: 21300000, guid: f165e6293e2398e42b20e987450eead7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f165e6293e2398e42b20e987450eead7, type: 3}
+    - m_Name: KODY12
+      m_Hash: 2003769587
+      m_Sprite: {fileID: 21300000, guid: 97ebe12247fade046b8201deef60d3de, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 97ebe12247fade046b8201deef60d3de, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  - m_Name: Jump
+    m_Hash: 125937960
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: KODY14
+      m_Hash: -1643332154
+      m_Sprite: {fileID: 21300000, guid: 1b7fff4b00d6bd34d815ce3a3682a7d2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 1b7fff4b00d6bd34d815ce3a3682a7d2, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Hurt
+    m_Hash: 1740614436
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: KODY18
+      m_Hash: -1749356051
+      m_Sprite: {fileID: 21300000, guid: 195c34bf114671c48b265ab33c5f017c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 195c34bf114671c48b265ab33c5f017c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Die
+    m_Hash: 20298039
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: KODY19
+      m_Hash: -524435077
+      m_Sprite: {fileID: 21300000, guid: c1d39fb328eb7014f9ee0c41a2af9a44, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: c1d39fb328eb7014f9ee0c41a2af9a44, type: 3}
+    - m_Name: KODY20
+      m_Hash: -1303631332
+      m_Sprite: {fileID: 21300000, guid: 9af2a6b4c4c8b1b4a953383dda92e741, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 9af2a6b4c4c8b1b4a953383dda92e741, type: 3}
+    - m_Name: KODY21
+      m_Hash: -984933750
+      m_Sprite: {fileID: 21300000, guid: 27ab10d4185f0074f9eabe92bf647908, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 27ab10d4185f0074f9eabe92bf647908, type: 3}
+    - m_Name: KODY22
+      m_Hash: 1547848496
+      m_Sprite: {fileID: 21300000, guid: ff071a5af98a21443a2731dd31f31681, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ff071a5af98a21443a2731dd31f31681, type: 3}
+    - m_Name: KODY23
+      m_Hash: 725973926
+      m_Sprite: {fileID: 21300000, guid: d2f8e1fa7c215c444b23c40c238b84a5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: d2f8e1fa7c215c444b23c40c238b84a5, type: 3}
+    - m_Name: KODY24
+      m_Hash: -1256067579
+      m_Sprite: {fileID: 21300000, guid: 6876e25909e058e44b13ac8d02997de2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6876e25909e058e44b13ac8d02997de2, type: 3}
+    - m_Name: KODY25
+      m_Hash: -1037640045
+      m_Sprite: {fileID: 21300000, guid: 45a8e0d69daa0c945951bde1fdc02022, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 45a8e0d69daa0c945951bde1fdc02022, type: 3}
+    - m_Name: KODY26
+      m_Hash: 1529843497
+      m_Sprite: {fileID: 21300000, guid: b60cb6cf0917db244a1516ad9da8115c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b60cb6cf0917db244a1516ad9da8115c, type: 3}
+    - m_Name: KODY27
+      m_Hash: 740868031
+      m_Sprite: {fileID: 21300000, guid: 49240b13ef1f1284781e8a53d6d5aaef, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 49240b13ef1f1284781e8a53d6d5aaef, type: 3}
+    - m_Name: KODY28
+      m_Hash: -1130913234
+      m_Sprite: {fileID: 21300000, guid: 0c4afb533094c4f4e89e92cf9474e1a1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 0c4afb533094c4f4e89e92cf9474e1a1, type: 3}
+    - m_Name: KODY29
+      m_Hash: -879717704
+      m_Sprite: {fileID: 21300000, guid: 6f5c166ab95dce643988d5d5be3cd139, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6f5c166ab95dce643988d5d5be3cd139, type: 3}
+    - m_Name: KODY30
+      m_Hash: -1420354723
+      m_Sprite: {fileID: 21300000, guid: 13b4847f138a68c4080d77dbd33ad397, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 13b4847f138a68c4080d77dbd33ad397, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 12
+  - m_Name: Attack
+    m_Hash: 1080829965
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: KODY16
+      m_Hash: 1879235818
+      m_Sprite: {fileID: 21300000, guid: 1dfdf8ed07c9cb944b8c3aeb6fb95dcb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 1dfdf8ed07c9cb944b8c3aeb6fb95dcb, type: 3}
+    - m_Name: KODY17
+      m_Hash: 117828732
+      m_Sprite: {fileID: 21300000, guid: 09688b58c2e13ae45a7ffe61c592c23d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 09688b58c2e13ae45a7ffe61c592c23d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: 
